@@ -1,13 +1,11 @@
 import React from 'react';
 
+import HeadingSecondary from '../heading-secondary/HeadingSecondary'
+
 function About() {
   return (
     <section className='section-about'>
-      <div className='u-center-text u-margin-bottom-big'>
-        <h2 className='heading-secondary'>
-          Exciting tours for adventurous people
-        </h2>
-      </div>
+      <HeadingSecondary text='Exciting tours for adventurous people' />
 
       <div className='row'>
         <div className='col-1-of-2'>

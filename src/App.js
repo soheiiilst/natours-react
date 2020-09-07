@@ -2,7 +2,6 @@ import React from 'react';
 
 import Header from './components/header/Header';
 import HomePage from './pages/home/HomePage';
-import Features from './components/features/Features';
 
 import './App.scss';
 import './sass/main.scss';
@@ -12,7 +11,6 @@ function App() {
     <div className='app'>
       <Header />
       <HomePage />
-      <Features />
 
       {/* <section className='grid-test'>
         <div className='row'>
