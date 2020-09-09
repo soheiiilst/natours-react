@@ -1,0 +1,11 @@
+.book {
+  background-size: 100%;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
+  background-repeat: no-repeat;
+
+  &__form {
+    width: 50%;
+    padding: 6rem;
+  }
+}

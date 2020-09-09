@@ -31,8 +31,8 @@ function Stories() {
       <HeadingSecondary text='We make people genuinely happy' />
 
       {persons.map(person => (
-        <div className='row'>
-          <Story key={person.id} {...person} />
+        <div key={person.id} className='row'>
+          <Story {...person} />
         </div>
       ))}
 
