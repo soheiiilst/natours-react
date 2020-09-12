@@ -2,6 +2,7 @@ import React from 'react';
 
 import Header from './components/header/Header';
 import HomePage from './pages/home/HomePage';
+import Footer from './components/footer/Footer';
 
 import './App.scss';
 import './sass/main.scss';
@@ -11,6 +12,7 @@ function App() {
     <div className='app'>
       <Header />
       <HomePage />
+      <Footer />
 
       {/* <section className='grid-test'>
         <div className='row'>
