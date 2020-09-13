@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Navigation from './components/navigation/Navigation';
 import Header from './components/header/Header';
 import HomePage from './pages/home/HomePage';
 import Footer from './components/footer/Footer';
@@ -10,6 +11,7 @@ import './sass/main.scss';
 function App() {
   return (
     <div className='app'>
+      <Navigation />
       <Header />
       <HomePage />
       <Footer />
