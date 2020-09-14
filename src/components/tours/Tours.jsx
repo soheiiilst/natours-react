@@ -45,7 +45,7 @@ function Tours() {
   ];
 
   return (
-    <section className='section-tours'>
+    <section className='section-tours' id='section-tours'>
       <HeadingSecondary text='Most popular tours' />
 
       <div className='row'>

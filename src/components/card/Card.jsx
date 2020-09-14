@@ -1,7 +1,5 @@
 import React from 'react';
 
-import Button from '../button/Button';
-
 function Card({
   id,
   title,
@@ -49,7 +47,7 @@ function Card({
             <p className='card__price-only'>Only</p>
             <p className='card__price-value'>${price}</p>
           </div>
-          <Button color='white'>Book now!</Button>
+          <a href='#popup' className='btn btn--white'>Book now!</a>
         </div>
       </div>
     </div>
