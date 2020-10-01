@@ -6,13 +6,13 @@ function Header() {
   return (
     <header
       className='header'
-      style={{
-        backgroundImage: `linear-gradient(
-                            to right bottom,
-                            rgba(126, 213, 111, 0.8),
-                            rgba(40, 180, 131, 0.8)
-                          ), url('img/hero.jpg')`
-      }}
+      // style={{
+      //   backgroundImage: `linear-gradient(
+      //                       to right bottom,
+      //                       rgba(126, 213, 111, 0.8),
+      //                       rgba(40, 180, 131, 0.8)
+      //                     ), url('img/hero.jpg')`
+      // }}
     >
       <div className='header__logo-box'>
         <img src='img/logo-white.png' alt='Logo' className='header__logo' />

@@ -6,8 +6,8 @@ import HomePage from './pages/home/HomePage';
 import Footer from './components/footer/Footer';
 import Popup from './components/popup/Popup';
 
-import './App.scss';
-import './sass/main.scss';
+// import './sass/main.scss';
+// import './App.scss';
 
 function App() {
   return (

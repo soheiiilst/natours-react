@@ -36,13 +36,13 @@ function Features() {
   return (
     <section
       className='section-features'
-      style={{
-        backgroundImage: `linear-gradient(
-          to right bottom,
-          rgba(126, 213, 111, 0.8),
-          rgba(40, 180, 131, 0.8)
-        ), url('img/nat-4.jpg')`
-      }}
+      // style={{
+      //   backgroundImage: `linear-gradient(
+      //     to right bottom,
+      //     rgba(126, 213, 111, 0.8),
+      //     rgba(40, 180, 131, 0.8)
+      //   ), url('img/nat-4.jpg')`
+      // }}
     >
       <div className='row'>
         {features.map(({ icon, header, text }) => (

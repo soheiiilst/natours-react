@@ -10,6 +10,7 @@
     transition: all 0.2s;
     position: relative;
     font-size: $default-font-size;
+    font-family: inherit;
 
     //Change for the <button> element
     border: none;
@@ -75,17 +76,18 @@
 }
 
 .btn-text {
-  &:link,
-  &:visited {
-    font-size: $default-font-size;
-    color: $color-primary;
-    display: inline-block;
-    text-decoration: none;
-    border-bottom: 1px solid $color-primary;
-    padding: 3px;
-    transition: all 0.2s;
-    border: 0;
-  }
+  font-family: inherit;
+  font-size: $default-font-size;
+  color: $color-primary;
+  display: inline-block;
+  text-decoration: none;
+  border: 0;
+  border-bottom: 1px solid $color-primary;
+  padding: 1rem 5px;
+  transition: all 0.2s;
+  appearance: none;
+  background-color: transparent;
+  
 
   &:hover {
     background-color: $color-primary;
